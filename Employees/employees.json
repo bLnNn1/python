@@ -1,0 +1,18 @@
+{
+    "Employees": [
+        {
+            "Last Name": "Despa",
+            "First Name": "Gabriel",
+            "Salary": 69,
+            "Job Position": "Engineer",
+            "Skill Level": "Junior"
+        },
+        {
+            "Last Name": "George",
+            "First Name": "Cristian",
+            "Salary": 22.3,
+            "Job Position": "tester",
+            "Skill Level": "nob"
+        }
+    ]
+}

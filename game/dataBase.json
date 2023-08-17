@@ -1,0 +1,26 @@
+{
+    "Players": [
+        {
+            "username": "Andrei",
+            "inventory": [
+                "ghost helmet",
+                "iron plate armour",
+                "battle shield",
+                "bronze shoes",
+                "young sword"
+            ],
+            "equipped": []
+        },
+        {
+            "username": "Dante",
+            "inventory": [
+                "young sword",
+                "ghost helmet",
+                "iron plate armour",
+                "battle shield",
+                "bronze shoes"
+            ],
+            "equipped": []
+        }
+    ]
+}
