@@ -24,6 +24,7 @@
 # print(listaDeListe)
 
 def ex2(word):
+    # 2. Scrie un program care sa genereze un dictionar in care sa se contorizeze numarul de litere dintr-o propozitie (un string).
     dictionar = {}
 
     for letter in word:
@@ -219,6 +220,8 @@ def ex4(num1, num2):
 # print(ex4(5, 10) + ex4(12, -5) + ex4(16, 32))
 
 def ex5():
+    # 5. Scrie doua functii (get si set) pe care sa le poti aplica pe dictionarul asta: listaInformatii= [{"inaltime": 150}, {"inaltime": 170}, {"inaltime": 185}]. 
+    # Spre exemplu: cu set-ul sa poti seta o inaltimea unei persoane din dictionarul respectiv iar cu get-ul sa poti lua inaltimea unei persoane specifice
     listaInformatii = [{"Alex": 150},
                        {"Geroge": 170},
                        {"Cristi": 185}]
@@ -321,6 +324,7 @@ def ex6():
 
 
 def ex7():
+    # 7. Scrie o functie cu care sa adaugi iteme in inventarul dictionarInventar si o functie cu care sa scoti iteme din inventar. Trebuie sa alegi itemul si pozitia. Exemple functii: daJosItem(item), puneItem(pozitia, item). Dictionarul: dictionarInventar = {"coif": "", "armura": "", "pantaloni": "", "bocanci": ""}
     inventar = {}
 
     def addItem(item: str, number=1):
@@ -340,6 +344,7 @@ import json
 
 
 def ex8a():
+    #  8. Scrie o functie care sa modifice 'area_codes' din fisierul .json cu un input de la user, si o functie care sa incarce fisierul json intr-un dictionar de python.
     with open('states.json') as f:
         data = json.load(f)
 
@@ -371,6 +376,8 @@ def ex8b():
 
 
 def ex9():
+    # 9. Scrie un program care sa ia dictionarul din fisierul json states.json si sa genereze o lista de dictionare de forma: 
+    #  [{"Arkansas": {"area_codes": ["479", "501", "870"]}}, {"Arizona": {"area_codes": ["480", "520", "602", "623", "928"]}}] dar pentru toate statele
     with open("states.json") as f:
         dictionar = json.load(f)
 
@@ -384,8 +391,10 @@ def ex9():
 
     print(dictList)
 
-# din noroc
+
 def ex10():
+    # 10. Scrie un program care sa transforme range-ul urmator: range(0, 10) intr-o lista de liste. 
+    # Expected result: [[0, 1, 2], [3, 4, 5], [6, 7, 8]] 
     listaDeListe = []
     flag = 0
 
@@ -402,6 +411,7 @@ def ex10():
 
 
 def ex11():
+    # 11. Scrie un program care sa printeze primele 20 de numere din secventa Fibonacci (Expected result: 0  1  1  2  3  5  8  13  21  34)
     a = 0
     b = 0
     c = 1
@@ -414,6 +424,7 @@ def ex11():
         b = a
 
 def ex12():
+    # 12. Scrie o functie care sa calculeze suma dintr-un range de numere (range(0, 50) daca numerele sunt divizibile cu 3, si sa returneze suma respectiva.
     suma = 0
     for i in range(0,50):
         if i % 3 == 0:
@@ -422,21 +433,18 @@ def ex12():
     return suma
 
 def ex13(*args):
+    # 13. Scrie o functie care sa calculeze aria unui dreptunghi, functia trebuie sa accepte si lungime si latime, dar latimea sa aibe deja o valoare default (Spre exemplu 20). La final functia trebuie sa returneze aria respectiva.
     if len(args) == 1 and isinstance(args[0], int):
         return "Aria dreptunghiului cu lungimea " + str(args[0]) + " si latimea 20 este " + str(args[0]*20)
     elif len(args) == 2 and isinstance(args[1], int):
         return "Aria dreptunghiului cu lungimea " + str(args[0]) + " si latimea " + str(args[1]) + " este " + str(args[0]*args[1])
 
 def ex14(*args):
+    # 14. Scrie o functie care sa calculeze perimetrul unui dreptunghi, similar ca la exercitiul 13, functia trebuie sa accepte lungime si latime, dar de data asta, latimea trebuie sa aibe o valoare default (Spre exemplu 20). La final functia trebuie sa returneze perimetrul calculat.
     if len(args) == 1 and isinstance(args[0], int):
         return "Perimetrul dreptunghiului cu lungimea " + str(args[0]) + " si latimea 20 este " + str(2*(args[0]+20))
     elif len(args) == 2 and isinstance(args[1], int):
         return "Perimetrul dreptunghiului cu lungimea " + str(args[0]) + " si latimea " + str(args[1]) + " este " + str(2*(args[0]+args[1]))
-
-
-    #  14. Scrie o functie care sa calculeze perimetrul unui dreptunghi, similar ca la exercitiul 13,
-    #  functia trebuie sa accepte lungime si latime, dar de data asta, latimea trebuie sa aibe o valoare default
-    #  (Spre exemplu 20). La final functia trebuie sa returneze perimetrul calculat.
 
 
 def ex15():
