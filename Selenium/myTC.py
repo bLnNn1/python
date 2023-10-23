@@ -61,7 +61,6 @@ def TC2():
     try:
         if tc1_passed is True:
             # Press "Delete" button
-            # delete_button = driver.find_element(By.XPATH, "//div[@class='line-item line-item-footer visible-xs visible-sm']//button[@class='btn btn-link btn-remove-product gtm_rp080219 remove-product'][normalize-space()='Sterge']")
             delete_button = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, delete_button_locator)))
 
             delete_button.click()
