@@ -1,4 +1,4 @@
-# LOCATORS FOR MY.TC
+# LOCATORS FOR myTC.py
 
 product_name_locator = "page-title"
 
