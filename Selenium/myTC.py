@@ -313,14 +313,6 @@ def TCs():
     except:
         print("TC7 - not runned")
 
-    try:
-        if tc8_passed is True:
-            print("TC8 - Pass")
-        else:
-            print("TC8 - Failed")
-    except:
-        print("TC8 - not runned")
-
 TC1()
 TC2()
 TC3()
