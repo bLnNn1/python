@@ -1,3 +1,5 @@
+# !!!    AUTOMATION TO SEARCH FOR THE LOWEST AND HIGHEST PRICE FROM MULTIPLE WEB PAGES    !!!
+
 import time
 
 from selenium import webdriver
