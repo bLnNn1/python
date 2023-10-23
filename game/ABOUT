@@ -1,1 +1,5 @@
-Un joc in consola
+Un joc in consola.
+La crearea caracterului, jucatorul primeste cateva obiecte (armura, sabie, coif etc.) cu proprietati random. De asemenea, jucatorul poate verifica proprietatile unui obiect oricand.
+Caracterul are diferite functii: sa se miste pe o distanta de X metri, sa atace alt jucator, sa-si verifice inventarul, sa echipeze anumite echipamente, sa verifice ce echipament are deja, [...]
+[...] sa-l puna inapoi in inventar, sa-l arunce pe jos, sa verifice ce obiecte sunt in jurul lui si sa le poata pune in inventar (daca se misca mai mult de 10 metri, vor aparea noi obiecte in jurul jucatorului).
+De asemenea, jucatorul poate verifica detaliile unui obiect.
