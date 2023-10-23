@@ -1,3 +1,4 @@
+# LOCATORS FOR MY.TC
 
 product_name_locator = "page-title"
 
